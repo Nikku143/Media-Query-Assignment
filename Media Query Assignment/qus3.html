@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <style>
+      .nevbar {
+        background-color: rgba(0, 0, 0, 0.845);
+        display: flex;
+        justify-content: space-around;
+      }
+
+      .nevbar li {
+        list-style: none;
+        color: white;
+        padding: 10px;
+      }
+      @media screen and (max-width: 768px) {
+        .nevbar {
+          background-color: rgba(128, 128, 128, 0.97);
+          flex-direction: column;
+          align-items: center;
+        }
+      }
+    </style>
+  </head>
+  <body>
+    <div class="nevbar">
+      <li>Home</li>
+      <li>About</li>
+      <li>Services</li>
+      <li>Portfolio</li>
+      <li>Contact</li>
+    </div>
+  </body>
+</html>
